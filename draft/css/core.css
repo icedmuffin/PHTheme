@@ -3,8 +3,8 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* apply to all */
 body{
-    font-family: 'Source Sans Pro', sans-serif;
-
+    /* font-size: small; */
+    background-color: rgb(0, 0, 0);
 }
 
 container-fluid{
@@ -12,78 +12,47 @@ container-fluid{
     background-color: antiquewhite;
 }
 
-/* space atur font */
-h1, h2, h3{
-    font-family: 'Open Sans', sans-serif;
-}
-
-h2{
-    text-align: center;
-    font-weight: 700;
-    color: #0F5298;
-    margin-bottom: 1rem;
-}
-
-
-/* space atur font */
 .header{
-    display: flex;
-    align-items: flex-start;
-    justify-content: end;
-    background-color:#3C99DC;
-    min-height: 300px;
-    padding: 0;
+    background-color:red;
+    min-height: 400px;
 }
 
 .navbar{
-    background-color: #5aaae4;
-    color: white;
-    width: 80%;
-    margin: 0;
+    background-color: blue;
 }
 
 .main{
     background-color: white;
-    /* width: 90%; */
+    width: 90%;
 }
 
 .keprofesian{
-    background-color: rgb(240, 240, 240);
+    background-color: grey;
     min-height: 200px;
 }
 
 .unicef{
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(165, 165, 165);
     min-height: 200px;
 }
 
 .agenda{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(204, 255, 204);
     min-height: 100px;
 }
 
 .berita{
-    background-color: rgb(224, 224, 224);
+    background-color: grey ;
     min-height: 100px;
 }
 
 .footer{
-    display: flexbox;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-between;
     background-color: #0F5298;
     min-height: 300px;
-
-    padding: 0;
-}
-
-.footer p{
-    color: white;
 }
 
 .informasi{
-    /* background-color: rgb(83, 83, 85); */
+    background-color: rgb(83, 83, 85);
     width: 100%;
     min-height: 200px;
     margin: 0 auto;
@@ -97,7 +66,7 @@ h2{
 .navigation{
     display: flex;
     flex-grow: 1;
-    /* background-color: aliceblue; */
+    background-color: aliceblue;
     min-height: 200px;
 
 }
@@ -105,37 +74,25 @@ h2{
 .logo{
     display: flex;
     flex-grow: 1;
-    /* background-color: aliceblue; */
+    background-color: aliceblue;
     min-height: 200px;
 
 }
 
 .copyright{
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    /* background-color: #839ebb; */
+    background-color: #839ebb;
     min-height: 80px;
-}
-
-.copyright p{
-   text-align: center;
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
-    .main{
-        width: 100%;
-    }
+
  }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .main{
-        width: 100%;
-    }
+
 
 }
 
