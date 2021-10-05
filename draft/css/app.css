@@ -42,6 +42,7 @@ h2{
     color: white;
     width: 80%;
     margin: 0;
+    display: none;
 }
 
 .main{
