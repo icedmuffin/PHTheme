@@ -16,14 +16,19 @@ container-fluid{
 
 /* space atur font */
 h1, h2, h3{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-h2{
+.main h2{
     text-align: center;
     font-weight: 700;
     color: #0F5298;
     margin-bottom: 1rem;
+    background-color: #f5f5f5;
+    padding: 0.5em 0.8em;
+    margin : 2em;
+    /* border-radius: 10px; */
+    /* border-bottom: 3px solid #e4e4e4; */
 }
 
 
@@ -51,12 +56,12 @@ h2{
 }
 
 .keprofesian{
-    background-color: rgb(240, 240, 240);
+    /* background-color: rgb(240, 240, 240); */
     min-height: 200px;
 }
 
 .unicef{
-    background-color: rgb(224, 224, 224);
+    /* background-color: rgb(224, 224, 224); */
     min-height: 200px;
 }
 
@@ -66,7 +71,7 @@ h2{
 }
 
 .berita{
-    background-color: rgb(224, 224, 224);
+    /* background-color: rgb(224, 224, 224); */
     min-height: 100px;
 }
 

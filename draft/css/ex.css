@@ -12,21 +12,32 @@
 }
 
 nav a{
+    
     height: auto;
     font-size: medium;
-    font-weight: bold;
+    font-weight: 400;
     text-decoration: none;
     padding: 0 10px;
     /* background-color: pink; */
     margin: 0.5rem ;
-    color: rgb(100, 166, 224);
+    color: rgb(97, 97, 97);
     /* background-color: #b64a4a; */
     margin-top: 0;
     margin-bottom: 0;
+
+    /* experiment */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 50px; */
+    padding: 0 10px;
 }
 
 nav a:hover{
-    color: rgb(44, 120, 187);
+   
+     /* experiment */
+    /* background-color: rgb(255, 255, 255); */
 }
 
 
@@ -36,7 +47,7 @@ nav a:hover{
 }
 
 .kanan h3{
-font-size: medium;
+font-size: 1.2em;
 margin-bottom: 0;
 
 }
@@ -57,12 +68,14 @@ height: 2rem;
     height: auto;
     background-color: rgb(248, 248, 248);
     margin-right: 100px;
+    
    
 }
 
 .dropdown:hover .kotak-dropdown {
     display: flex;
     box-shadow: 8px 8px 5px 0.8px rgba(157, 157, 245, 0.1);
+    
 
 }
 
@@ -80,7 +93,7 @@ height: 2rem;
     justify-content: flex-start;
     margin: 0.1rem;
     font-size: medium;
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: none;
     padding: 10px 20px;
     transition: background-color 0.3s, color 0.3s;
