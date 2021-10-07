@@ -39,7 +39,7 @@
         background-color: #ffffff;
         padding: 0 2rem;
         min-height: 50px;
-        border-bottom: 1px solid rgba(112, 195, 255, 0.507);
+        /* border-bottom: 1px solid rgba(112, 195, 255, 0.507); */
        
     
     }
@@ -80,7 +80,7 @@
         margin-bottom: 0;
     }
     
-    .kanan h3{
+    .kiri h3{
     font-size: medium;
     font-weight: 600;
     margin-bottom: 0;
@@ -115,15 +115,17 @@
     
     }
     
-    .kotak-dropdown .kanan{
+    .kotak-dropdown .kiri{
         display: flex;
         flex-grow: 1;
         flex-direction: column;
         background-color: #FBFBFB;
-        padding: 20px;
+        padding: 1em;
+        /* padding-right: 3em; */
+
     }
     
-    .kotak-dropdown .kanan a{
+    .kotak-dropdown .kiri a{
         color :rgb(123, 123, 123);
         display: flex;
         align-items: center;
@@ -133,26 +135,50 @@
         font-weight: 400;
         text-decoration: none;
         padding: 10px 20px;
-        transition: background-color 0.3s, color 0.3s;
+        /* transition: background-color 0.3s, color 0.3s; */
       
      
     }
-    .kotak-dropdown .kanan a:hover{
+    .kotak-dropdown .kiri a:hover{
         background-color: #71c4ff;
         color: white;
      
     }
     
-    .kotak-dropdown .kiri{
+    .kotak-dropdown .kanan{
         display: flex;
-        flex-grow: 2;
+        flex-grow: 1;
         flex-direction: column;
         background-color: rgb(255, 255, 255);
-        min-width: 100px;
-        min-height: 100px;
-        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        /* min-width: 100px;
+        min-height: 100px; */
+        padding: 3em 1em;
     }
-    /* navigasi tablet dan dextop */
+
+    img{
+        width: 10rem;
+    }
+
+    /* ini kalau jadi */
+    .kepala{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        background-color: #ffffff;
+        /* border-bottom: 3px solid rgb(241, 241, 241) ; */
+
+    }
+
+    .tulisan-kepala{
+        color: rgb(68, 68, 68);
+        font-size: 1.5rem;
+        font-weight: 400;
+        
+}
+    /* navigasi tablet dan desktop */
 
 
     .bg-light{
@@ -286,6 +312,7 @@
         flex-grow: 1;
     
         min-height: 200px;
+        background-color: white;
     
     }
     
@@ -299,6 +326,7 @@
     .copyright p{
        text-align: center;
        margin-bottom: 0;
+       padding: 0.5em;
       
     }
 
@@ -315,6 +343,22 @@
     .menubar{
         display: none;
     }
+    .kepala{
+        display: none;
+    }
+
+    /* costumisasi mobile */
+    .navigation .sub-nav{
+       flex-grow: 1;
+        }
+    .navigation .sub-nav{
+    flex-grow: 1;
+    }
+    .navigation .sub-nav h3{
+        padding-left: 0;
+        margin-top: 1em;
+        }
+         
     
  }
 
@@ -329,6 +373,9 @@
      display: none;
  }
  .menubar{
+    display: flex;
+}
+.kepala{
     display: flex;
 }
     
