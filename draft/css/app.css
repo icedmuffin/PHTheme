@@ -1,209 +1,321 @@
-/* Extra small devices (portrait phones, less than 576px)
-No media query for `xs` since this is the default in Bootstrap */
-
-
-
-/* apply to all */
-body{
-    font-family: 'Source Sans Pro', sans-serif;
-
-}
-
-container-fluid{
-    min-height: 200px;
-    background-color: antiquewhite;
-}
-
-/* space atur font */
-h1, h2, h3{
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-main{
-    min-height: 500px;
-}
-
-main .tulisan{
-    padding: 3em;
-    /* background-color: #0F5298; */
-}
-
-main .tulisan p{
-    /* text-align:justify; */
-}
-.main h2{
-    text-align: center;
-    letter-spacing: 1px;
-    font-weight: 700;
-    color: #0F5298;
-    margin-bottom: 1rem;
-    /* background-color: #f5f5f5; */
-    padding: 0.5em 0.8em;
-    margin : 2em;
-    /* border-radius: 10px; */
-    /* border-bottom: 3px solid #e4e4e4; */
-}
-
-
-/* space atur font */
-.header{
-    display: flex;
-    align-items: flex-start;
-    justify-content: end;
-    background-color:#f0f9ff;
-    min-height: 300px;
-    padding: 0;
-}
-
-.navbar{
-    background-color: #5aaae4;
-    color: white;
-    width: 80%;
-    margin: 0;
-    display: none;
-}
-
-.main{
-    background-color: white;
-    /* width: 90%; */
-}
-
-.keprofesian{
-    /* background-color: rgb(240, 240, 240); */
-    min-height: 200px;
-}
-
-.unicef{
-    /* background-color: rgb(224, 224, 224); */
-    min-height: 200px;
-}
-
-.agenda{
-    background-color: rgb(255, 255, 255);
-    min-height: 100px;
-}
-
-.berita{
-    /* background-color: rgb(224, 224, 224); */
-    min-height: 100px;
-}
-
-.footer{
-    display: flexbox;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    background-color: #0F5298;
-    min-height: 300px;
-
-    padding: 0;
-}
-
-.footer p{
-    color: white;
-}
-
-.informasi{
-    /* background-color: rgb(83, 83, 85); */
-    width: 100%;
-    min-height: 200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    flex-wrap: wrap;
-    padding: 2rem;
-
-}
-
-.navigation{
-    /* display: flex;
-    flex-grow: 1;
-    flex-direction: row;
-    background-color: aliceblue;
-    min-height: 200px;
-    align-items: flex-start;
-    justify-content: space-around;
-    background-color: antiquewhite;
-    margin: 0 auto; */
-
-    flex-grow: 1;
-    /* ex */
-    /* background-color:whitesmoke; */
-    /* width: 100%; */
-    /* height: 500px; */
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    /* ini untuk main axis */
-    justify-content:flex-start;
-    align-items: flex-start;
-    /* ini untuk cross axis */
-    
-    flex-wrap: wrap;
-
-
-}
-
-/* kotak subs navigasi footer */
-.navigation .sub-nav{
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
-/* min-width: 200px; */
-margin: 0 20px;
-/* background-color: #f5f5f5; */
-border-right: 0.5px solid white;
-padding-right: 1em;
-min-height:max-content;
-
-
-
-}
-
-.navigation .sub-nav > h3{
-    color: rgb(255, 255, 255);
-    font-size: medium;
-    font-weight: 600;
-    
-}
-.navigation .sub-nav a{
-    text-decoration: none;
-    color: white;
-}
-.navigation .sub-nav a:hover{
-    text-decoration: underline;
-}
-
-
-.logo{
-    display: flex;
-    flex-grow: 1;
-    /* flex-grow: 1; */
-    /* background-color: aliceblue; */
-    min-height: 200px;
-
-}
-
-.copyright{
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    /* background-color: #839ebb; */
-    /* min-height: 80px; */
-}
-
-.copyright p{
-   text-align: center;
-}
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (min-width: 375px) {
 
     .main{
         width: 100%;
     }
+
+    body{
+        font-family: 'Source Sans Pro', sans-serif;
+    
+    }
+    
+    container-fluid{
+        min-height: 200px;
+        background-color: antiquewhite;
+    }
+    
+    
+    h1, h2, h3{
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    main{
+        min-height: 500px;
+    }
+    
+    main .tulisan{
+        padding: 3em;
+    
+    }
+
+    /* navigasi default dan hp */
+    .menubar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: #ffffff;
+        padding: 0 2rem;
+        min-height: 50px;
+        border-bottom: 1px solid rgba(112, 195, 255, 0.507);
+       
+    
+    }
+    
+    nav a{
+        
+        height: auto;
+        font-size: medium;
+        font-weight: 400;
+        text-decoration: none;
+        padding: 0 10px;
+        /* background-color: pink; */
+        margin: 0.5rem ;
+        color: rgb(123, 123, 123);
+        /* background-color: #b64a4a; */
+        margin-top: 0;
+        margin-bottom: 0;
+    
+        /* experiment */
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* min-height: 50px; */
+        padding: 0 10px;
+    }
+    
+    nav a:hover{
+       
+        color: rgb(123, 123, 123);
+         /* experiment */
+        /* background-color: rgb(255, 255, 255); */
+    }
+    
+    
+    .dropdown a{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .kanan h3{
+    font-size: medium;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #71c4ff;
+    
+    }
+    
+    
+    
+    .kotak-dropdown a{
+    color: rgb(32, 117, 190);
+    height: 2rem;
+    }
+    
+    .kotak-dropdown{
+        border-top: 3px solid #71c4ff;
+        display: none;
+        position: absolute;
+        /* top: 40px; */
+        min-width: 600px;
+        height: auto;
+        background-color: rgb(248, 248, 248);
+        margin-right: 100px;
+        
+       
+    }
+    
+    .dropdown:hover .kotak-dropdown {
+        display: flex;
+        box-shadow: 8px 8px 5px 0.8px rgba(157, 157, 245, 0.1);
+        
+    
+    }
+    
+    .kotak-dropdown .kanan{
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        background-color: #FBFBFB;
+        padding: 20px;
+    }
+    
+    .kotak-dropdown .kanan a{
+        color :rgb(123, 123, 123);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0.1rem;
+        font-size: medium;
+        font-weight: 400;
+        text-decoration: none;
+        padding: 10px 20px;
+        transition: background-color 0.3s, color 0.3s;
+      
+     
+    }
+    .kotak-dropdown .kanan a:hover{
+        background-color: #71c4ff;
+        color: white;
+     
+    }
+    
+    .kotak-dropdown .kiri{
+        display: flex;
+        flex-grow: 2;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        min-width: 100px;
+        min-height: 100px;
+        padding: 5px;
+    }
+    /* navigasi tablet dan dextop */
+
+
+    .bg-light{
+        background-color: white;
+    }
+    
+    .navbar-toggler {
+    border: 0;
+    }
+    .navbar-light .navbar-toggler{
+        border-color: 0;
+    }
+    
+    
+
+
+
+    main .tulisan p{
+    
+    }
+    .main h2{
+        text-align: center;
+        letter-spacing: 1px;
+        font-weight: 700;
+        color: #0F5298;
+        margin-bottom: 1rem;
+        padding: 0.5em 0.8em;
+        margin : 2em;
+    
+    }
+    
+    .header{
+        display: flex;
+        align-items: flex-start;
+        justify-content: end;
+        background-color:#f0f9ff;
+        min-height: 300px;
+        padding: 0;
+    }
+    
+    
+    
+    .main{
+        background-color: white;
+    }
+    
+    .keprofesian{
+        min-height: 200px;
+    }
+    
+    .unicef{
+        min-height: 200px;
+    }
+    
+    .agenda{
+        background-color: rgb(255, 255, 255);
+        min-height: 100px;
+    }
+    
+    .berita{
+        min-height: 100px;
+    }
+    
+    .footer{
+        display: flexbox;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        background-color: #0F5298;
+        min-height: 300px;
+    
+        padding: 0;
+    }
+    
+    .footer p{
+        color: white;
+    }
+    
+    .informasi{
+        width: 100%;
+        min-height: 200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        padding: 2rem;
+    
+    }
+    
+    .navigation{
+        flex-grow: 1;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    
+    
+    .navigation .sub-nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 20px;
+    padding-right: 1em;
+    min-height:max-content;
+
+    }
+    
+    .navigation .sub-nav > h3{
+        color: rgb(255, 255, 255);
+        font-size: medium;
+        font-weight: 600;
+        border-bottom: 0.5px solid white;
+        padding: 0.5em;
+        
+    }
+    .navigation .sub-nav a{
+        text-decoration: none;
+        color: white;
+    }
+    .navigation .sub-nav a:hover{
+        text-decoration: underline;
+    }
+    
+    
+    .logo{
+        display: flex;
+        flex-grow: 1;
+    
+        min-height: 200px;
+    
+    }
+    
+    .copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .copyright p{
+       text-align: center;
+       margin-bottom: 0;
+      
+    }
+
+    /* ini krusial */
+    .keren{
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        visibility: hidden;
+        
+    }
+
+    /* ini krusial */
+    .menubar{
+        display: none;
+    }
+    
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -211,6 +323,15 @@ min-height:max-content;
     .main{
         width: 100%;
     }
+
+ /* ini krusial */
+.navbar{
+     display: none;
+ }
+ .menubar{
+    display: flex;
+}
+    
 
 }
 

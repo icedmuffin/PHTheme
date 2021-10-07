@@ -1,0 +1,56 @@
+.hemm{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) {
+
+    .main{
+        width: 100%;
+    }
+    .hemm{
+        height: 100px;
+        width: 100px;
+        background-color: red;
+    }
+    .hemm2{
+        height: 50px;
+        width: 50px;
+        background-color: rgb(253, 156, 156);
+    }
+    
+    
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .main{
+        width: 100%;
+    }
+    .hemm{
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        display: none;
+    }
+
+    
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+}
+
+
+
+   

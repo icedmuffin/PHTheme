@@ -23,7 +23,6 @@
 
     <!-- Costom CSS -->
     <link rel="stylesheet" href="./css/app.css">
-    <link rel="stylesheet" href="./css/ex.css">
 
     <!-- Costom font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,8 +38,9 @@
 
 <body>
 
-    <!-- ex -->
+    <!-- tablet and desktop navbar -->
     <nav class="menubar">
+        <a class="navbar-brand" href="#">HAKLI Papua Barat</a>
         <a href="#">Home</a>
         <a href="#">About Us</a>
         <div class="dropdown">
@@ -69,7 +69,7 @@
                 <section class="kanan">
                     <h3>Program</h3>
                     <a href="#">Imunisasi</a>
-                    <a href="#">malaria</a>
+                    <a href="#">Malaria</a>
                     <a href="#">Wash</a>
                     <a href="#">Covid-19</a>
                 </section>
@@ -80,15 +80,83 @@
             </div>
         </div>
 
-
+        <a href="#">berita</a>
         <a href="#">Contact Us</a>
+    </nav>
+    <!-- mobile navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">HAKLI Papua Barat</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Keprofesian
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <h3>Keanggotaan</h3>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Registrasi Keanggotaan</a></li>
+                            <li><a class="dropdown-item" href="#">Daftar Keanggotaan</a></li>
+                            <li><a class="dropdown-item" href="#">STR</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <h3>Agenda</h3>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Agenda Akan Dilakukan</a></li>
+                            <li><a class="dropdown-item" href="#">Agenda Telah Dilakukan</a></li>
+                            <li><a class="dropdown-item" href="#">Arsip Dokumen</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Kemitraan Unicef
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <h3>Program</h3>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Imunisasi</a></li>
+                            <li><a class="dropdown-item" href="#">Malaria</a></li>
+                            <li><a class="dropdown-item" href="#">Wash</a></li>
+                            <li><a class="dropdown-item" href="#">Covid-19</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
     </nav>
 
     <!-- ex -->
     <header class="container-fluid header">
-        <nav class="container navbar">
-            ini navigasi bar
-        </nav>
+
     </header>
 
     <main class="container-fluid main">

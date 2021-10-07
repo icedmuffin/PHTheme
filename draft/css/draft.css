@@ -1,0 +1,164 @@
+/* 
+---------------------
+ini kode original
+---------------------
+*/
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+container-fluid{
+    min-height: 200px;
+    background-color: antiquewhite;
+}
+
+
+h1, h2, h3{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main{
+    min-height: 500px;
+}
+
+main .tulisan{
+    padding: 3em;
+
+}
+
+main .tulisan p{
+
+}
+.main h2{
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #0F5298;
+    margin-bottom: 1rem;
+    padding: 0.5em 0.8em;
+    margin : 2em;
+
+}
+
+.header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    background-color:#f0f9ff;
+    min-height: 300px;
+    padding: 0;
+}
+
+
+
+.main{
+    background-color: white;
+}
+
+.keprofesian{
+    min-height: 200px;
+}
+
+.unicef{
+    min-height: 200px;
+}
+
+.agenda{
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
+}
+
+.berita{
+    min-height: 100px;
+}
+
+.footer{
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background-color: #0F5298;
+    min-height: 300px;
+
+    padding: 0;
+}
+
+.footer p{
+    color: white;
+}
+
+.informasi{
+    width: 100%;
+    min-height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+
+}
+
+.navigation{
+    flex-grow: 1;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.navigation .sub-nav{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+margin: 0 20px;
+padding-right: 1em;
+min-height:max-content;
+
+
+
+}
+
+.navigation .sub-nav > h3{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-weight: 600;
+    border-bottom: 0.5px solid white;
+    padding: 0.5em;
+    
+}
+.navigation .sub-nav a{
+    text-decoration: none;
+    color: white;
+}
+.navigation .sub-nav a:hover{
+    text-decoration: underline;
+}
+
+
+.logo{
+    display: flex;
+    flex-grow: 1;
+
+    min-height: 200px;
+
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.copyright p{
+   text-align: center;
+   margin-bottom: 0;
+  
+}
+
+
