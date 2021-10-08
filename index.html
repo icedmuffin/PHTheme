@@ -21,6 +21,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
+    <!--custom icon  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <!-- Costom CSS -->
     <link rel="stylesheet" href="./css/app.css">
 
@@ -43,48 +46,58 @@
         <h2 class="tulisan-kepala">HAKLI Provinsi Papua Barat </h2>
     </section>
     <nav class="menubar">
+        <div class="menubar-kanan">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <div class="dropdown">
+                <a href="#">Keprofesian <i class="fas fa-angle-down"></i></a>
+                <div class="kotak-dropdown">
+                    <section class="kiri">
+                        <h3>Keanggotaaan</h3>
+                        <a href="#">Registrasi Keanggotaan</a>
+                        <a href="#">Daftar Keanggotaan</a>
+                        <a href="#">STR</a>
+                        <h3>Agenda</h3>
+                        <a href="#">Agenda Akan Dilakukan</a>
+                        <a href="#">Agenda Telah Dilakukan</a>
+                        <h3>Dokumen</h3>
+                        <a href="#">Arsip Dokumen</a>
+                    </section>
+                    <section class="kanan">
+                        <img src="./images/unicef.png" alt="">
+                    </section>
 
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <div class="dropdown">
-            <a href="#">Keprofesian</a>
-            <div class="kotak-dropdown">
-                <section class="kiri">
-                    <h3>Keanggotaaan</h3>
-                    <a href="#">Registrasi Keanggotaan</a>
-                    <a href="#">Daftar Keanggotaan</a>
-                    <a href="#">STR</a>
-                    <h3>Agenda</h3>
-                    <a href="#">Agenda Akan Dilakukan</a>
-                    <a href="#">Agenda Telah Dilakukan</a>
-                    <h3>Dokumen</h3>
-                    <a href="#">Arsip Dokumen</a>
-                </section>
-                <section class="kanan">
-                    <img src="./images/unicef.png" alt="">
-                </section>
-
+                </div>
             </div>
-        </div>
-        <div class="dropdown">
-            <a href="#">Kemitraan Unicef</a>
-            <div class="kotak-dropdown">
-                <section class="kiri">
-                    <h3>Program</h3>
-                    <a href="#">Imunisasi</a>
-                    <a href="#">Malaria</a>
-                    <a href="#">Wash</a>
-                    <a href="#">Covid-19</a>
-                </section>
-                <section class="kanan">
-                    <img src="./images/unicef.png" alt="">
-                </section>
+            <div class="dropdown">
+                <a href="#">Kemitraan Unicef <i class="fas fa-angle-down"></i></a>
+                <div class="kotak-dropdown">
+                    <section class="kiri">
+                        <h3>Program</h3>
+                        <a href="#">Imunisasi</a>
+                        <a href="#">Malaria</a>
+                        <a href="#">Wash</a>
+                        <a href="#">Covid-19</a>
+                    </section>
+                    <section class="kanan">
+                        <img src="./images/unicef.png" alt="">
+                    </section>
 
+                </div>
             </div>
+
+            <a href="#">berita</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="menubar-kiri">
+
         </div>
 
-        <a href="#">berita</a>
-        <a href="#">Contact Us</a>
+
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn cari" type="submit">Search</button>
+        </form>
     </nav>
     <!-- mobile navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -115,9 +128,6 @@
                             <li><a class="dropdown-item" href="#">Registrasi Keanggotaan</a></li>
                             <li><a class="dropdown-item" href="#">Daftar Keanggotaan</a></li>
                             <li><a class="dropdown-item" href="#">STR</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
                             <li>
                                 <h3>Agenda</h3>
                             </li>
@@ -166,17 +176,59 @@
 
         <!-- di bawah adalah space Dynamic -->
         <section class="container-fluid keprofesian">
+
             <h2>
                 KEPROFESIAN
             </h2>
-            <p>
-                ini tempat keprofesian
-            </p>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat, quia consequuntur, unde
-                veritatis vel mollitia quisquam sapiente quo sed soluta nemo! Debitis fugit facilis error? Esse ab
-                excepturi dolores!
-            </p>
+
+            <div class="berita-space">
+
+                <div class="berita-kotak">
+                    <div class="berita-gambar">
+                        <img src="./images/unicef.png" alt="">
+                    </div>
+                    <div class="berita-tulisan">
+                        <section class="berita-judul">
+                            <h3>Papua PON 2021</h3>
+                        </section>
+                        <section class="berita-paragraf">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui modi nihil ratione tenetur sit
+                            deserunt quos molestias officia. Voluptatibus libero reiciendis deserunt maxime at laborum.
+                            Cum porro explicabo veniam quod.
+                        </section>
+                    </div>
+                </div>
+                <div class="berita-kotak">
+                    <div class="berita-gambar">
+                        <img src="./images/unicef.png" alt="">
+                    </div>
+                    <div class="berita-tulisan">
+                        <section class="berita-judul">
+                            <h3>Papua PON 2021</h3>
+                        </section>
+                        <section class="berita-paragraf">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolor rerum vel Illum
+                            consequuntur a, quod repellat iure eos ex.
+                        </section>
+                    </div>
+                </div>
+                <div class="berita-kotak">
+                    <div class="berita-gambar">
+                        <img src="./images/unicef.png" alt="">
+                    </div>
+                    <div class="berita-tulisan">
+                        <section class="berita-judul">
+                            <h3>Papua PON 2021</h3>
+                        </section>
+                        <section class="berita-paragraf">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolor rerum vel Illum
+                            consequuntur a, quod repellat iure eos ex.
+                        </section>
+                    </div>
+                </div>
+
+
+            </div>
         </section>
 
         <!-- di atas adalah space Dynamic -->
@@ -184,15 +236,9 @@
             <h2>
                 KEMITRAAN UNICEF
             </h2>
-            <p>
-                ini tempat unicef
-            </p>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat, quia consequuntur, unde
-                veritatis vel mollitia quisquam sapiente quo sed soluta nemo! Debitis fugit facilis error? Esse ab
-                excepturi dolores!
-
-            </p>
+            <div class="costom-unicef">
+                ini custom made ya nanti nyusul
+            </div>
         </section>
 
         <!-- di bawah adalah space Dynamic  -->
@@ -200,27 +246,62 @@
             <h2>
                 AGENDA
             </h2>
-            <p>
-                ini tempat agenda
-            </p>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat, quia consequuntur, unde
-                veritatis vel mollitia quisquam sapiente quo sed soluta nemo! Debitis fugit facilis error? Esse ab
-                excepturi dolores!
-            </p>
+            <div class="costom-agenda">
+                ini untuk space plugin agenda
+            </div>
         </section>
         <section class="container-fluid berita">
             <H2>
                 BERITA HARI INI
             </H2>
-            <p>
-                ini tempat berita
-            </p>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat, quia consequuntur, unde
-                veritatis vel mollitia quisquam sapiente quo sed soluta nemo! Debitis fugit facilis error? Esse ab
-                excepturi dolores!
-            </p>
+            <div class="berita-space">
+
+                <div class="berita-kotak">
+                    <div class="berita-gambar">
+                        <img src="./images/unicef.png" alt="">
+                    </div>
+                    <div class="berita-tulisan">
+                        <section class="berita-judul">
+                            <h3>Papua PON 2021</h3>
+                        </section>
+                        <section class="berita-paragraf">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui modi nihil ratione tenetur sit
+                            deserunt quos molestias officia. Voluptatibus libero reiciendis deserunt maxime at laborum.
+                            Cum porro explicabo veniam quod.
+                        </section>
+                    </div>
+                </div>
+                <div class="berita-kotak">
+                    <div class="berita-gambar">
+                        <img src="./images/unicef.png" alt="">
+                    </div>
+                    <div class="berita-tulisan">
+                        <section class="berita-judul">
+                            <h3>Papua PON 2021</h3>
+                        </section>
+                        <section class="berita-paragraf">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolor rerum vel Illum
+                            consequuntur a, quod repellat iure eos ex.
+                        </section>
+                    </div>
+                </div>
+                <div class="berita-kotak">
+                    <div class="berita-gambar">
+                        <img src="./images/unicef.png" alt="">
+                    </div>
+                    <div class="berita-tulisan">
+                        <section class="berita-judul">
+                            <h3>Papua PON 2021</h3>
+                        </section>
+                        <section class="berita-paragraf">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolor rerum vel Illum
+                            consequuntur a, quod repellat iure eos ex.
+                        </section>
+                    </div>
+                </div>
+
+
+            </div>
 
         </section>
         <!-- di atas adalah space Dynamic -->

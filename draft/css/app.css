@@ -1,15 +1,3 @@
-/* 
-Template ini dibuat untuk HAKLI Provinsi papua barat.
-
-Theme Name :HakliPB
-Text Domain : HakliPB
-Version : 1.0
-tags : simple, responsive, professional
-Author : Naufal Sunandar
-Author URL : https://www.instagram.com/naufal_sunandar/
-
-
-*/
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 375px) {
@@ -38,8 +26,8 @@ Author URL : https://www.instagram.com/naufal_sunandar/
     }
     
     main .tulisan{
-        padding: 1em 4em;
-
+        padding: 3em;
+    
     }
 
     /* navigasi default dan hp */
@@ -63,7 +51,9 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         align-items: center;
         justify-content: flex-start;
     }
-    .menubar-kiri{}  
+    .menubar-kanan{
+        
+    }
 
     i{
         padding-left: 0.5em;
@@ -214,7 +204,11 @@ Author URL : https://www.instagram.com/naufal_sunandar/
     .navbar-light .navbar-toggler{
         border-color: 0;
     }
-  
+    
+    
+
+
+
     main .tulisan p{
     
     }
@@ -225,57 +219,10 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         color: #0F5298;
         margin-bottom: 1rem;
         padding: 0.5em 0.8em;
-        margin : 0.8em 2em;
+        margin : 2em;
     
     }
-
-    .berita-space{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    /* background-color: #f0f0f0; */
-    align-items: center;
-    justify-content: space-around;
-    }
-
-    .berita-kotak{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    /* background-color: #0F5298; */
-    /* padding: 4rem; */
-    align-items: center;
-    justify-content: center;
-    /* padding-bottom: 0.5rem; */
-    border-top: 4px solid #e1e1e1  ;
-    margin-top: 1rem;
-    box-shadow:  3px 3px 5px 1px rgba(196, 196, 196, 0.2);;
-    }
     
-    .berita-gambar{
-        width: 100%;
-        background-color: white;
-        /* min-height: 4rem; */
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .berita-tulisan{
-        width: 100%;
-        background-color: #f5f5f5;
-        height: 100%;
-        padding: 1rem;
-
-    }
-.berita-tulisan .berita-judul h3{
-font-size: large;
-font-weight: 600;
-}
-
     .header{
         display: flex;
         align-items: flex-start;
@@ -297,40 +244,15 @@ font-weight: 600;
     
     .unicef{
         min-height: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
     }
     
-    .costom-unicef{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #f2f2f2;
-        width: 90%;
-        height: 4rem;
-    }
-
     .agenda{
-        min-height: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-
-    }
-    .costom-agenda{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #f2f2f2;
-        width: 90%;
-        height: 4rem;
+        background-color: rgb(255, 255, 255);
+        min-height: 100px;
     }
     
     .berita{
-        margin-bottom: 3rem;
+        min-height: 100px;
     }
     
     .footer{
@@ -471,108 +393,42 @@ font-weight: 600;
         background-color: #0F5298;
         color: white;
     }
-
-    .logo {
-        margin: 2rem;
-        padding: 2rem;
-    }
-
          
     
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .main{
+        width: 100%;
+    }
+
+ /* ini krusial */
+.navbar{
+     display: none;
+ }
+ .menubar{
+    display: flex;
 }
- /* Medium devices (tablets, 768px and up) */
- @media (min-width: 768px) {
-     .main{
-         width: 100%;
-     }
- 
-  /* ini krusial */
-    html{
-        margin: 0;
-    }
-    .navbar{
-        display: none;
-    }
-    .menubar{
-        display: flex;
-    }
-    .kepala{
-        display: flex;
-    }
-        
+.kepala{
+    display: flex;
+}
+    
 
-    /* kotumisasi keprofesian */
+}
 
-    .berita-kotak{
-        display: flex;
-        width: 70%;
-        flex-direction: row;
-        align-items: center;
-        /* background-color: #0F5298; */
-        /* padding: 4rem; */
-        align-items: center;
-        justify-content:center;
-        /* padding-bottom: 0.5rem; */
-        border-top: 0 ;
-        border-left: 5px solid #e4e4e4  ;
-        margin-top: 1rem;
-        }
-        
-        .berita-gambar{
-            flex-grow: 0.2;
-            width:auto;
-            padding: 0 2rem;
-            background-color: white;
-            /* min-height: 4rem; */
-            /* height: 100%; */
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: flex-start;
-            
-    
-        }
-    
-        .berita-tulisan{
-            flex-grow: 3;
-            background-color: #f5f5f5;
-            height: 100%;
-            padding: 1rem;
-    
-        }
-    
- }
- 
- /* Large devices (desktops, 992px and up) */
- @media (min-width: 992px) {
-    /* ini krusial */
-    .navbar{
-        display: none;
-    }
-    .menubar{
-        display: flex;
-    }
-    .kepala{
-        display: flex;
-    }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
 
 
-    
- 
- }
- 
- /* Extra large devices (large desktops, 1200px and up) */
- @media (min-width: 1200px) {
-    /* ini krusial */
-    .navbar{
-        display: none;
-    }
-    .menubar{
-        display: flex;
-    }
-    .kepala{
-        display: flex;
-    }
-    
- 
- }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+}
+
+
+
+   
