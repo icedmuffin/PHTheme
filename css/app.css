@@ -39,7 +39,29 @@ Author URL : https://www.instagram.com/naufal_sunandar/
     
     main .tulisan{
         padding: 1em 4em;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
 
+    }
+    .custom-kategori{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f2f2f2;
+        width: 90%;
+        height: 4rem;
+    }
+
+    .custom-komentar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f2f2f2;
+        width: 90%;
+        height: 4rem;
     }
 
     /* navigasi default dan hp */
@@ -303,7 +325,7 @@ font-weight: 600;
         flex-direction: column;
     }
     
-    .costom-unicef{
+    .custom-unicef{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -320,7 +342,7 @@ font-weight: 600;
         flex-direction: column;
 
     }
-    .costom-agenda{
+    .custom-agenda{
         display: flex;
         align-items: center;
         justify-content: center;
