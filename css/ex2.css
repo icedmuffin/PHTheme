@@ -1,0 +1,218 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) {
+
+    /* 
+    --------------------
+    Space Program Unicef
+    --------------------
+    */
+    body{
+        font-family: 'Source Sans Pro', sans-serif;
+        /* background-color: #EFF6FF; */
+    }
+
+    .unicef-header{
+    display: flex;
+    flex-direction: column;
+    /* max-width: %; */
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #ffffff;
+    margin-bottom: 2rem;
+
+    }
+
+    .unicef-logo{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    }
+
+    .unicef-logo img{
+        width: 10rem;
+    }
+    .unicef-about{
+        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+    max-width: 100%;
+    }
+
+    .unicef-about p{
+        text-align: justify;
+        font-size: 0.9rem;
+    
+    }
+
+
+    .unicef-kotak{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    }
+
+    .unicef-kotak:nth-of-type(2n){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .unicef-gambar{
+    display: none;
+    }
+    .unicef-gambar-alt{
+        display: flex;
+        height: auto;
+        /* background-color: rgb(222, 222, 222); */
+        padding: 2rem;
+        /* margin: 2rem; */
+    }
+    .unicef-gambar-alt img{
+        width: 15rem;
+    }
+   
+
+    .unicef-tulisan{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        width: 90%;
+    }
+
+    .unicef-tulisan-judul h3{
+        color: #499DFF;
+        font-size:2.3rem;
+        font-weight: 700;
+        /* padding: 0 2rem; */
+        margin-bottom: 0.5rem;
+    
+    }
+
+
+    .unicef-tulisan-paragraf{
+    text-align: justify;
+    font-size: 0.9rem;
+    }
+
+
+
+    .readmore{
+        border: 1px solid #499DFF;
+        background-color: #499DFF;
+        /* background-color: #348efe; */
+        border-radius: 2px;
+        font-size: 0.8rem;
+        color: #ffffff;
+        font-weight: 500;
+        display: inline-block;
+        padding: 1px 30px;
+        text-decoration: none;
+        margin: 20px 0;
+        transition: box-shadow 0.5s, transform 0.5s, background-color 0.2s;
+
+
+
+
+    }
+
+    /* tombol */
+
+    .readmore:hover{
+        border: 1px solid #499DFF;
+        color: white;
+        background-color: #499DFF;
+        box-shadow: 0.5em 0.5em 0em 0.01em #4467c1;
+        /* margin: 0.5em 0; */
+        /* transform: translateY(-0.3em); */
+        cursor: pointer;
+    }
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+    .unicef-header{
+        display: flex;
+        flex-direction: row;
+        /* max-width: %; */
+        justify-content: space-around;
+        padding: 2rem;
+        background-color: #ffffff;
+        margin-bottom: 2rem;
+    }
+    .unicef-about{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 2;
+        max-width: 60%;
+    }
+    .unicef-kotak{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-bottom: 2rem;
+    }
+    .unicef-kotak:nth-of-type(2n){
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .unicef-tulisan{
+        display: inline;
+        /* display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start; */
+        padding: 1rem;
+        width: 50%;
+    }
+    .unicef-gambar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        height: auto;
+        /* background-color: rgb(222, 222, 222); */
+        /* padding: 2rem; */
+    }
+    .unicef-gambar img{
+        width: 15rem;
+    }
+    .unicef-gambar-alt{
+        display: none;
+    }
+    .unicef-tulisan-judul h3{
+        color: #499DFF;
+        font-size:2.3rem;
+        font-weight: 700;
+        /* padding: 0 2rem; */
+        margin-bottom: 2rem;
+    
+    }
+
+    
+        
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

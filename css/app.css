@@ -20,7 +20,6 @@ Author URL : https://www.instagram.com/naufal_sunandar/
 
     body{
         font-family: 'Source Sans Pro', sans-serif;
-    
     }
     
     container-fluid{
@@ -44,8 +43,8 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         align-items: center;
         justify-content: center;
         flex-direction: column;
-
     }
+    
     .custom-kategori{
         display: flex;
         align-items: center;
@@ -74,8 +73,6 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         padding: 0 2rem;
         min-height: 50px;
         /* border-bottom: 1px solid rgba(112, 195, 255, 0.507); */
-    
-    
     }
 
     
@@ -85,7 +82,6 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         align-items: center;
         justify-content: flex-start;
     }
-    .menubar-kiri{}  
 
     i{
         padding-left: 0.5em;
@@ -114,8 +110,7 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         padding: 0 10px;
     }
     
-    nav a:hover{
-       
+    nav a:hover{ 
         color: rgb(123, 123, 123);
          /* experiment */
         /* background-color: rgb(255, 255, 255); */
@@ -128,18 +123,15 @@ Author URL : https://www.instagram.com/naufal_sunandar/
     }
     
     .kiri h3{
-    font-size: medium;
-    font-weight: 600;
-    margin-bottom: 0;
-    color: #71c4ff;
-    
+        font-size: medium;
+        font-weight: 600;
+        margin-bottom: 0;
+        color: #71c4ff;
     }
     
-    
-    
     .kotak-dropdown a{
-    color: rgb(32, 117, 190);
-    height: 2rem;
+        color: rgb(32, 117, 190);
+        height: 2rem;
     }
     
     .kotak-dropdown{
@@ -150,16 +142,13 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         min-width: 600px;
         height: auto;
         background-color: rgb(248, 248, 248);
-        margin-right: 100px;
-        
+        margin-right: 100px;  
        
     }
     
     .dropdown:hover .kotak-dropdown {
         display: flex;
         box-shadow: 8px 8px 5px 0.8px rgba(157, 157, 245, 0.1);
-        
-    
     }
     
     .kotak-dropdown .kiri{
@@ -169,7 +158,6 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         background-color: #FBFBFB;
         padding: 1em;
         /* padding-right: 3em; */
-
     }
     
     .kotak-dropdown .kiri a{
@@ -183,8 +171,6 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         text-decoration: none;
         padding: 10px 20px;
         /* transition: background-color 0.3s, color 0.3s; */
-      
-     
     }
     .kotak-dropdown .kiri a:hover{
         background-color: #71c4ff;
@@ -204,10 +190,12 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         padding: 3em 1em;
     }
 
-    img{
+    .kanan img{
         width: 10rem;
     }
 
+   
+   
     /* ini kalau jadi */
     .kepala{
         display: flex;
@@ -224,7 +212,8 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         font-size: 1.5rem;
         font-weight: 400;
         
-}
+    }
+
     /* navigasi tablet dan desktop */
     .bg-light{
         background-color: white;
@@ -233,6 +222,7 @@ Author URL : https://www.instagram.com/naufal_sunandar/
     .navbar-toggler {
     border: 0;
     }
+
     .navbar-light .navbar-toggler{
         border-color: 0;
     }
@@ -245,34 +235,94 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         letter-spacing: 1px;
         font-weight: 700;
         color: #0F5298;
-        margin-bottom: 1rem;
         padding: 0.5em 0.8em;
-        margin : 0.8em 2em;
+        margin : 0.2em 2em;
     
     }
+    /* 
+    ------------------------
+    space front-page profesi
+    ------------------------
+    */
+    .profesi-space{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        /* background-color: #f0f0f0; */
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .profesi-kotak{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: #0F5298; */
+        /* padding: 4rem; */
+        align-items: center;
+        justify-content: center;
+        /* padding-bottom: 0.5rem; */
+        border-top: 4px solid #e1e1e1  ;
+        margin-top: 1rem;
+        box-shadow:  3px 3px 5px 1px rgba(196, 196, 196, 0.2);
+    }
+    
+    .profesi-gambar{
+        width: 100%;
+        background-color: white;
+        /* min-height: 4rem; */
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .profesi-tulisan{
+        width: 100%;
+        background-color: #f5f5f5;
+        height: 100%;
+        padding: 1rem;
+
+    }
+    .profesi-tulisan .profesi-judul h3{
+        font-size: large;
+        font-weight: 600;
+    }
+    
+    .profesi-gambar img{
+        width: 10rem;
+    }
+
+    /* 
+    ------------------------
+    space front-page berita
+    ------------------------
+    */
 
     .berita-space{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    /* background-color: #f0f0f0; */
-    align-items: center;
-    justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
     }
 
     .berita-kotak{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    /* background-color: #0F5298; */
-    /* padding: 4rem; */
-    align-items: center;
-    justify-content: center;
-    /* padding-bottom: 0.5rem; */
-    border-top: 4px solid #e1e1e1  ;
-    margin-top: 1rem;
-    box-shadow:  3px 3px 5px 1px rgba(196, 196, 196, 0.2);;
+        display: flex;
+        flex-grow: 1;
+        /* width: 100%; */
+        flex-direction: column;
+        align-items: center;
+        /* background-color: #0F5298; */
+        /* padding: 4rem; */
+        align-items: center;
+        justify-content: center;
+        /* padding-bottom: 0.5rem; */
+        border-top: 4px solid #e1e1e1  ;
+        margin-top: 1rem;
+        box-shadow:  3px 3px 5px 1px rgba(196, 196, 196, 0.2);
     }
     
     .berita-gambar{
@@ -293,10 +343,22 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         padding: 1rem;
 
     }
-.berita-tulisan .berita-judul h3{
-font-size: large;
-font-weight: 600;
-}
+    .berita-tulisan .berita-judul h3{
+        font-size: large;
+        font-weight: 600;
+    }
+
+    .berita-gambar img{
+        max-width: 10rem;
+    }
+
+
+    /* 
+    ------------------------
+    space front-page skeleton
+    ------------------------
+    */
+
 
     .header{
         display: flex;
@@ -319,10 +381,13 @@ font-weight: 600;
     
     .unicef{
         min-height: 200px;
+        margin-top: 2rem;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        background-color: #EFF6FF;
+        padding: 0 1rem;
     }
     
     .custom-unicef{
@@ -394,12 +459,12 @@ font-weight: 600;
     
     
     .navigation .sub-nav{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 0 20px;
-    padding-right: 1em;
-    min-height:max-content;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0 20px;
+        padding-right: 1em;
+        min-height:max-content;
 
     }
     
@@ -423,10 +488,16 @@ font-weight: 600;
     .logo{
         display: flex;
         flex-grow: 1;
+        align-items: center;
+        justify-content: center;
+        /* max-height: 200px; */
+        background-color: #ffffff;
     
-        min-height: 200px;
-        background-color: white;
-    
+    }
+
+    .logo img{
+        width: 8rem;
+        height: 8rem;
     }
     
     .copyright{
@@ -495,8 +566,8 @@ font-weight: 600;
     }
 
     .logo {
-        margin: 2rem;
-        padding: 2rem;
+        /* margin: 2rem;
+        padding: 2rem; */
     }
 
          
@@ -512,7 +583,7 @@ font-weight: 600;
     html{
         margin: 0;
     }
-    .navbar{
+    /* .navbar{
         display: none;
     }
     .menubar{
@@ -520,14 +591,31 @@ font-weight: 600;
     }
     .kepala{
         display: flex;
-    }
-        
+    } */
+       
+    /* ----------------
+    unicef space
+    ---------------- */
 
-    /* kotumisasi keprofesian */
-
-    .berita-kotak{
+    .unicef{
+        min-height: 200px;
+        margin-top: 2rem;
         display: flex;
-        width: 70%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #EFF6FF;
+        padding: 0 3rem;
+    }
+
+    /* 
+    ------------------------
+    space front-page profesi
+    ------------------------
+    */
+    .profesi-kotak{
+        display: flex;
+        width: 90%;
         flex-direction: row;
         align-items: center;
         /* background-color: #0F5298; */
@@ -538,30 +626,37 @@ font-weight: 600;
         border-top: 0 ;
         border-left: 5px solid #e4e4e4  ;
         margin-top: 1rem;
-        }
+    }
         
-        .berita-gambar{
-            flex-grow: 0.2;
-            width:auto;
-            padding: 0 2rem;
-            background-color: white;
-            /* min-height: 4rem; */
-            /* height: 100%; */
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: flex-start;
+    .profesi-gambar{
+        flex-grow: 0.2;
+        width:auto;
+        padding: 0 2rem;
+        background-color: white;
+       /* min-height: 4rem; */
+        /* height: 100%; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
             
     
-        }
+    }
     
-        .berita-tulisan{
-            flex-grow: 3;
-            background-color: #f5f5f5;
-            height: 100%;
-            padding: 1rem;
+    .profesi-tulisan{
+        flex-grow: 3;
+        background-color: #f5f5f5;
+        height: 100%;
+        padding: 1rem;
     
-        }
+    }
+
+     /* 
+    ------------------------
+    space front-page berita
+    ------------------------
+    */
+
     
  }
  
@@ -595,6 +690,25 @@ font-weight: 600;
     .kepala{
         display: flex;
     }
+    /* 
+    ------------------------
+    space front-page profesi
+    ------------------------
+    */
+
+    .profesi-kotak{
+        display: flex;
+        width: 70%;
+    }
+
+     /* 
+    ------------------------
+    space front-page berita
+    ------------------------
+    */
+
+  
+
     
  
  }

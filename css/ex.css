@@ -1,0 +1,105 @@
+/* 
+Template ini dibuat untuk HAKLI Provinsi papua barat.
+
+Theme Name :HakliPB
+Text Domain : HakliPB
+Version : 1.0
+tags : simple, responsive, professional
+Author : Naufal Sunandar
+Author URL : https://www.instagram.com/naufal_sunandar/
+
+
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) {
+
+    .main{
+        width: 100%;
+    }
+
+    body{
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    container-fluid{
+        min-height: 200px;
+        background-color: antiquewhite;
+    }
+   
+    /* 
+    ------------------------
+    space front-page berita
+    ------------------------
+    */
+
+    .berita-space{
+    background-color: rgb(184, 184, 250);
+    display: flex;
+    flex-direction: row;
+
+    }
+
+    .berita-kotak{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: antiquewhite;
+    }
+    
+    .berita-gambar{
+        display: block;
+        flex-grow: 1;
+        /* width: 200px;
+        min-height: 120px;
+        max-height: auto;
+        float: left;
+        margin: 3px;
+        padding: 3px; */
+
+    }
+
+    .berita-tulisan{
+        flex-grow: 1;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        max-width:20rem;
+
+ 
+    }
+    .berita-tulisan .berita-judul h3{
+
+    }
+
+    .berita-gambar img{
+        max-width: 100%;
+    height: auto
+       
+    }
+
+
+ 
+    
+}
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) {
+ 
+    
+ }
+ 
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) {
+  
+ 
+ }
+ 
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {
+    
+  
+
+    
+ 
+ }
