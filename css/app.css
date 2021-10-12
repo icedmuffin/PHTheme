@@ -20,7 +20,12 @@ Author URL : https://www.instagram.com/naufal_sunandar/
 
     body{
         font-family: 'Source Sans Pro', sans-serif;
+        max-width: 1920px; 
+	    margin: 0 auto !important; 
+	    float: none !important; 
     }
+    
+   
     
     container-fluid{
         min-height: 200px;
@@ -28,6 +33,7 @@ Author URL : https://www.instagram.com/naufal_sunandar/
     }
     
     
+
     h1, h2, h3{
         font-family: 'Source Sans Pro', sans-serif;
     }
@@ -255,7 +261,7 @@ Author URL : https://www.instagram.com/naufal_sunandar/
 
     .profesi-kotak{
         display: flex;
-        width: 100%;
+        width: 80%;
         flex-direction: column;
         align-items: center;
         /* background-color: #0F5298; */
@@ -264,8 +270,8 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         justify-content: center;
         /* padding-bottom: 0.5rem; */
         border-top: 4px solid #e1e1e1  ;
-        margin-top: 1rem;
-        box-shadow:  3px 3px 5px 1px rgba(196, 196, 196, 0.2);
+        margin-top: 2rem;
+        /* box-shadow:  3px 3px 5px 1px rgba(196, 196, 196, 0.2); */
     }
     
     .profesi-gambar{
@@ -300,57 +306,6 @@ Author URL : https://www.instagram.com/naufal_sunandar/
     space front-page berita
     ------------------------
     */
-
-    .berita-space{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .berita-kotak{
-        display: flex;
-        flex-grow: 1;
-        /* width: 100%; */
-        flex-direction: column;
-        align-items: center;
-        /* background-color: #0F5298; */
-        /* padding: 4rem; */
-        align-items: center;
-        justify-content: center;
-        /* padding-bottom: 0.5rem; */
-        border-top: 4px solid #e1e1e1  ;
-        margin-top: 1rem;
-        box-shadow:  3px 3px 5px 1px rgba(196, 196, 196, 0.2);
-    }
-    
-    .berita-gambar{
-        width: 100%;
-        background-color: white;
-        /* min-height: 4rem; */
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .berita-tulisan{
-        width: 100%;
-        background-color: #f5f5f5;
-        height: 100%;
-        padding: 1rem;
-
-    }
-    .berita-tulisan .berita-judul h3{
-        font-size: large;
-        font-weight: 600;
-    }
-
-    .berita-gambar img{
-        max-width: 10rem;
-    }
 
 
     /* 
@@ -407,6 +362,11 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         flex-direction: column;
 
     }
+    .agenda>h2{
+        color: #92B194;
+        
+
+    }
     .custom-agenda{
         display: flex;
         align-items: center;
@@ -417,6 +377,7 @@ Author URL : https://www.instagram.com/naufal_sunandar/
     }
     
     .berita{
+        margin-top: 3rem;
         margin-bottom: 3rem;
     }
     
@@ -615,7 +576,7 @@ Author URL : https://www.instagram.com/naufal_sunandar/
     */
     .profesi-kotak{
         display: flex;
-        width: 90%;
+        width: 75%;
         flex-direction: row;
         align-items: center;
         /* background-color: #0F5298; */
@@ -623,9 +584,10 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         align-items: center;
         justify-content:center;
         /* padding-bottom: 0.5rem; */
-        border-top: 0 ;
-        border-left: 5px solid #e4e4e4  ;
-        margin-top: 1rem;
+        border: 2px solid #e1e1e1 ;
+        border-radius: 10px;
+        /* border-left: 5px solid #e4e4e4  ; */
+        margin-top: 0.5rem;
     }
         
     .profesi-gambar{
@@ -639,13 +601,14 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         flex-wrap: wrap;
         align-items: center;
         justify-content: flex-start;
+        border-right: 4px solid #e1e1e1;
             
     
     }
     
     .profesi-tulisan{
         flex-grow: 3;
-        background-color: #f5f5f5;
+        background-color: #ffffff;
         height: 100%;
         padding: 1rem;
     
@@ -698,7 +661,7 @@ Author URL : https://www.instagram.com/naufal_sunandar/
 
     .profesi-kotak{
         display: flex;
-        width: 70%;
+        width: 90%;
     }
 
      /* 

@@ -1,0 +1,136 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) {
+
+    
+
+    /* 
+    --------------------
+    Space Program Unicef
+    --------------------
+    */
+    body{
+        font-family: 'Source Sans Pro', sans-serif;
+        /* background-color: #EFF6FF; */
+    }
+
+    .judul3{
+        width: 100%;
+        padding-bottom: 0.1rem;
+        border-bottom: 5px solid #92B194;
+    }
+    .judul3 h2{
+        margin: 0;
+    }
+
+    .berita-kotak{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding-top: 3rem; */
+        background-color: #ffffff;
+        border-radius: 5px;
+        padding: 2rem;
+        box-shadow: none;
+    
+    }
+    .berita-kotak h2{
+        color:#92B194;
+    }
+
+    .berita-list{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        border: none;
+        margin-top: 2rem;
+        box-shadow: 12px 12px 2px 1px #c2dcc4;
+    }
+    .berita-in{
+        margin: 0;
+    }
+
+        
+    .berita-list-gambar{
+       
+        background-color: white;
+
+    }
+    
+    
+
+    .berita-list-judul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: #92B194;
+        border-bottom: 1px solid #b3b3b3;
+    }
+
+    .berita-list-judul h3{
+        color: #ffffff;
+        text-align: center;
+        margin: 0;
+        padding: 0.5rem 0;
+        font-weight: 600;
+        
+       
+    }
+    .berita-list-tulisan{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+        background-color: #ffffff;
+    }
+    .berita-list-tulisan p{
+    text-align: justify;
+    }
+
+    
+
+
+
+    
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+   
+    .berita-list{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        border-left: 1px solid #cecece;
+        border-right: 1px solid #dedede;
+        box-shadow: none;
+    }
+    .berita-list-judul{
+        padding: 0;
+    }
+    .berita-list-judul h3{
+       font-size: large;
+    }
+    .berita-kotak{
+        /* box-shadow:  3px 3px 8px 10px rgba(196, 196, 196, 0.2); */
+    }
+
+
+        
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+   
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

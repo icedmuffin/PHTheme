@@ -1,0 +1,163 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) {
+
+    .test{
+        background-color: #92B194;
+
+    }
+    .berita-kotak{
+        margin-top: 100px;
+    }
+    /* 
+    --------------------
+    Space Program Unicef
+    --------------------
+    */
+    body{
+        font-family: 'Source Sans Pro', sans-serif;
+        /* background-color: #EFF6FF; */
+    }
+
+    .berita-kotak{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2.5rem;
+        background-color: #92B194;
+        min-height: 100px;
+    }
+    .berita-akan{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width:100%;
+    }
+    
+    .berita-list{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        margin: 0.2rem;
+        background-color: #ffffff;
+        /* min-height: 100px; */
+        width: 100%;
+        border-radius: 5px;
+
+        
+    }
+    .berita-list-gambar{
+        width:auto;
+        padding: 0 2rem;
+        background-color: white;
+       /* min-height: 4rem; */
+        height: 100%;
+    }
+
+    .berita-list-gambar img{
+        display: inline-block;
+        width: 15rem;
+    }
+    
+    
+
+    .berita-list-judul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: #f3fff4;
+    }
+
+    .berita-list-judul h3{
+        color: #414141;
+        text-align: center;
+        margin: 0;
+        padding: 0.5rem 0;
+       
+    }
+    .berita-list-tulisan{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        background-color: #f3fff4;
+    }
+    .berita-list-tulisan p{
+    text-align: justify;
+    }
+    .berita-list-gambar{
+        display: flex;
+        height:4rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+
+
+
+    
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+    .berita-list{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        margin: 0.2rem;
+        background-color: #ffffff;
+        /* min-height: 100px; */
+        width: 100%;
+        border-radius: 5px;
+
+        
+    }
+    
+    .berita-akan{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width:100%;
+    }
+    
+
+    
+        
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .berita-kotak{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        background-color: #92B194;
+        width: 90%;
+        border-radius: 5px;
+        
+
+    }
+    .berita-akan{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
