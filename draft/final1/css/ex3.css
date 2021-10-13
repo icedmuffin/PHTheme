@@ -1,0 +1,128 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) {
+
+    /* 
+    --------------------
+    Space Program Unicef
+    --------------------
+    */
+    body{
+        font-family: 'Source Sans Pro', sans-serif;
+        /* background-color: #EFF6FF; */
+    }
+
+    .agenda-kotak{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2.5rem;
+        background-color: #92B194;
+        min-height: 100px;
+    }
+    .agenda-akan{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width:100%;
+    }
+    
+    .agenda-list{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        margin: 1rem;
+        background-color: #ffffff;
+        /* min-height: 100px; */
+        width: 100%;
+        border-radius: 5px;
+
+        
+    }
+    .agenda-list-tanggal p{
+
+        text-align: center;
+        margin: 0;
+        font-size:xx-large;
+        font-weight: 700;
+        color :#557B57;
+    }
+    }
+    .agenda-list-judul p{
+        color: #ffffff;
+        text-align: center;
+        margin: 0;
+        padding: 1rem 0;
+       
+    }
+
+    .agenda-list-judul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: #557B57;
+    }
+    .agenda-list-tanggal{
+        display: flex;
+        height:4rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+
+
+
+    
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+  
+    
+    .agenda-akan{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width:100%;
+    }
+    
+
+    
+        
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .agenda-kotak{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        background-color: #92B194;
+        width: 90%;
+        border-radius: 5px;
+        
+
+    }
+    .agenda-akan{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
