@@ -10,7 +10,10 @@ Author URL : https://www.instagram.com/naufal_sunandar/
 
 
 */
-
+ .header img{
+     width: 100%;
+     height: auto;
+ }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 375px) {
@@ -94,14 +97,14 @@ Author URL : https://www.instagram.com/naufal_sunandar/
 
     }
     .tulisan h3{
-        font-size: 1.5rem;
+        font-size: 0.9rem;
         text-align: center;
-        color: #0F5298;
-        margin-bottom: 1rem;
+        color: #92B194;
+        margin-bottom: 0.5rem;
 
     }
     .tulisan p{
-        font-size: 1.2rem;
+        font-size: 1em;
         text-align: justify;
     }
 
@@ -454,7 +457,7 @@ Author URL : https://www.instagram.com/naufal_sunandar/
         display: inline-block;
         padding: 1px 30px;
         text-decoration: none;
-        margin: 20px 0;
+        /* margin: 20px 0; */
         transition: box-shadow 0.5s, transform 0.5s, background-color 0.2s;
 
 
